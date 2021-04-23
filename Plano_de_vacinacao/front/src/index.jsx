@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Button } from 'react-bootstrap';
-import './Styles/index.scss';
 
-import App from './Pages/tela_inicial';
+import Routes from './routes';
+
+import './Styles/index.scss';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Routes />
   </React.StrictMode>,
   document.getElementById('root')
 );
